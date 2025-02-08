@@ -58,3 +58,5 @@ npx hardhat run scripts/deploy.js --network goerli
    npx hardhat run scripts/deploy.js --network goerli
    ```
 3️⃣ **Start Frontend:**# Electronic-health-Record-System-Using-Block-Chain
+   npm run dev
+   
