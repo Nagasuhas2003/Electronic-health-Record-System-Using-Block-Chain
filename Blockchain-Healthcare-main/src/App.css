@@ -1,0 +1,61 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.fetch-btn {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+.add-btn {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+}
+
+.records-container {
+  margin-top: 20px;
+}
+
+.record {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.tampering {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

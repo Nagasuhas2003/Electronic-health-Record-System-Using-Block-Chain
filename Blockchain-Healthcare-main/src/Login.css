@@ -1,0 +1,126 @@
+/* Overall container settings */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    /* Background settings for full coverage */
+    
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+
+/* Login box design */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Add transparency for a modern look */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(5px); /* Optional: adds a blur effect */
+}
+
+/* Login title */
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Input fields */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Login button */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02); /* Slight scale effect on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Footer styling */
+.login-footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+
+.login-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Tab container */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Tab button styles */
+.tab-button {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: #007bff;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s, color 0.3s;
+}
+
+.tab-button:hover {
+    color: #0056b3;
+}
+
+.tab-button.active {
+    font-weight: bold;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
